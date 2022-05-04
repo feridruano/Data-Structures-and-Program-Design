@@ -1,0 +1,48 @@
+Name: Ferid Ruano
+Class: COMP 151 - 3PM
+Lab 01 - Project 1
+
+What is the first numbered ball to start with? (must be between 1 and 6 inclusive)
+3
+The first ball is: "3"
+
+*** Removing balls from the table ***
+
+--> Removed "3"
+After adding 3 balls, we have 3 on the table:
+[2, 2, 1]
+
+--> Removed "1"
+Removed ball has number "1", no new balls will be added - 2 balls remaining:
+[2, 2]
+
+--> Removed "2"
+After adding 2 balls, we have 3 on the table:
+[2, 1, 1]
+
+--> Removed "1"
+Removed ball has number "1", no new balls will be added - 2 balls remaining:
+[2, 1]
+
+--> Removed "1"
+Removed ball has number "1", no new balls will be added - 1 balls remaining:
+[2]
+
+--> Removed "2"
+After adding 2 balls, we have 2 on the table:
+[1, 1]
+
+--> Removed "1"
+Removed ball has number "1", no new balls will be added - 1 balls remaining:
+[1]
+
+--> Removed "1"
+Removed ball has number "1", no new balls will be added - 0 balls remaining:
+[]
+
+
+The table is empty!!!
+
+The time required was 9 milliseconds
+
+Process finished with exit code 0

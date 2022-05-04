@@ -1,0 +1,61 @@
+Name: Ferid Ruano
+Class: COMP 151 - 3PM
+Lab 3 - Project 1
+
+--> Creating aSet and adding to it elements from inputData: [A, B, C, D, A, C, B, B]
+The set contains 4 string(s), as follows:
+D C B A 
+
+--> Clearing aSet
+The set is empty
+--> aSet isEmpty returns: true
+
+--> Creating set1 and set2
+
+--> Adding elements to set1
+--> set1 after adding elements
+The set contains 3 string(s), as follows:
+C B A 
+
+--> Adding elements to set2
+--> set2 after adding elements
+The set contains 4 string(s), as follows:
+D C B A 
+
+--> set1 contains "A": true
+--> set1 contains "E": false
+
+--> Removing "B" from set1
+--> After removing "B" from set1, 
+The set contains 2 string(s), as follows:
+C A 
+
+--> Removing random element from set1
+--> set1.remove() returned: "C"
+The set contains 1 string(s), as follows:
+A 
+
+--> Removing "A" from set1
+--> After removing "A" from set1, 
+The set is empty
+
+--> Removing random element from set1
+--> set1.remove() returned: "null"
+The set is empty
+
+--> Adding 4 elements to set1
+--> After adding 4 elements to set1:
+The set contains 4 string(s), as follows:
+N M L K 
+
+--> Trying to add duplicate element "N" to set1
+--> After adding a duplicate element "N" to set1
+The set contains 4 string(s), as follows:
+N M L K 
+
+Trying to add null entry
+--> set1 after adding:
+The set contains 4 string(s), as follows:
+N M L K 
+
+Process finished with exit code 0

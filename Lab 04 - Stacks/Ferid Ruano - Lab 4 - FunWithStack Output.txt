@@ -1,0 +1,82 @@
+Name: Ferid Ruano
+Class: COMP 151 - 3PM
+Lab 4 - FunWithStack
+
+FunWithStack
+*** DECIMAL TO BINARY CONVERTER ***
+DECIMAL TO BINARY CONVERTER
+
+Please enter a positive integer, or type "stop"
+6
+6 in binary is --> 110
+
+Please enter a positive integer, or type "stop"
+12345
+12345 in binary is --> 11000000111001
+
+Please enter a positive integer, or type "stop"
+stop
+Done with conversion.
+
+*** ANCIENT MULTIPLIER ***
+Ancient Multiplier
+
+Please enter operand 1, or type "stop"
+12345
+
+Please enter operand 2
+6789
+The smaller operand is: 6789; and the larger operand is: 12345
+Creating the mapping table:
+1 --> 12,345 
+2 --> 24,690 
+4 --> 49,380 
+8 --> 98,760 
+16 --> 197,520 
+32 --> 395,040 
+64 --> 790,080 
+128 --> 1,580,160 
+256 --> 3,160,320 
+512 --> 6,320,640 
+1,024 --> 12,641,280 
+2,048 --> 25,282,560 
+4,096 --> 50,565,120 
+
+---> Calculating the result
+6,789 * 12,345 is: 50,565,120 + 25,282,560 + 6,320,640 + 1,580,160 + 49,380 + 12,345 = 83,810,205
+Please enter operand 1, or type "stop"
+4
+
+Please enter operand 2
+5
+The smaller operand is: 4; and the larger operand is: 5
+Creating the mapping table:
+1 --> 5 
+2 --> 10 
+4 --> 20 
+
+---> Calculating the result
+4 * 5 is: 20 = 20
+Please enter operand 1, or type "stop"
+stop
+Done with multiplying.
+
+*** ELIMINATING ADJACENT DUPLICATES ***
+--> testcase #1
+input = [1, 5, 6, 8, 8, 8, 0, 1, 1, 0, 6, 5]
+result = [1] CORRECT
+
+---> testcase #2
+input = [1, 9, 6, 8, 8, 8, 0, 1, 1, 0, 6, 5]
+result = [1, 9, 5] CORRECT
+
+---> testcase #3
+input = [1, 1, 6, 8, 8, 8, 0, 1, 1, 0, 6, 5]
+result = [5] CORRECT
+
+---> testcase #4
+input = [1, 1, 1, 5, 6, 8, 8, 8, 0, 1, 1, 0, 6, 5]
+result = [] CORRECT
+Done!
+
+Process finished with exit code 0

@@ -1,0 +1,22 @@
+Name: Ferid Ruano
+Class: COMP 151 - 3PM
+Lab 13 - Application #2
+
+Postfix
+The first postfix expression is:
+ab*c+
+
+The inorder traversal is:
+a * b + c 
+
+The postorder traversal is:
+a b * c + 
+
+The second postfix expression is:
+ab-c*def-+g/+
+
+The inorder traversal is:
+a - b * c + d + e - f / g 
+
+The postorder traversal is:
+a b - c * d e f - + g / + 

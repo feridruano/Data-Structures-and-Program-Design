@@ -1,0 +1,37 @@
+Name: Ferid Ruano
+Class: COMP 151 - 3PM
+Lab 7 - Project 2
+
+CheckCountingSort
+What size array should be used?
+ It should be an integer value greater than or equal to 1.
+21
+How many arrays should be used (number of trials)?
+ It should be an integer value greater than or equal to 1.
+3
+What maximum number should be generated?
+ It should be an integer value greater than or equal to 1.
+9
+
+TRIAL #1
+The original array is: 
+[3, 3, 0, 3, 1, 1, 5, 7, 1, 8, 0, 4, 1, 4, 4, 7, 3, 5, 7, 6, 5]
+The original array sorted with countingSort: 
+[0, 0, 1, 1, 1, 1, 3, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 7, 7, 7, 8]
+  passes
+
+TRIAL #2
+The original array is: 
+[2, 6, 5, 8, 0, 9, 8, 0, 7, 9, 9, 5, 0, 6, 5, 7, 0, 2, 9, 6, 5]
+The original array sorted with countingSort: 
+[0, 0, 0, 0, 2, 2, 5, 5, 5, 5, 6, 6, 6, 7, 7, 8, 8, 9, 9, 9, 9]
+  passes
+
+TRIAL #3
+The original array is: 
+[4, 4, 9, 4, 7, 1, 2, 7, 1, 5, 2, 7, 0, 9, 1, 1, 5, 1, 2, 0, 0]
+The original array sorted with countingSort: 
+[0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 4, 4, 4, 5, 5, 7, 7, 7, 9, 9]
+  passes
+
+Process finished with exit code 0

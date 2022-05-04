@@ -1,0 +1,63 @@
+Name: Ferid Ruano
+Class: COMP 151 - 3pm
+Lab 2 - Project 1
+
+
+--> Creating aSet with the secondary constructor - capacity of 8
+--> Adding elements from inputData to aSet
+There are 4 string(s): A B C D 
+
+--> Clearing aSet
+The set is empty
+--> aSet isEmpty returns 
+true
+--> The number of elements in aSet is 
+0
+
+--> Creating set1 with default constructor
+--> set1 initially empty
+The set is empty
+
+--> Adding elements to set1
+--> set1 after adding elements
+There are 3 string(s): A B C 
+
+--> Adding elements to set1
+
+--> set1 after adding more elements
+There are 10 string(s): A B C V T U W X Y Z 
+
+--> set1 contains "A":
+true
+--> set1 contains "E":
+false
+
+--> Removing "B" from set1
+--> After removing "B" from set1:
+There are 9 string(s): A Z C V T U W X Y 
+--> Removing random element from set1
+--> After removing "Y" from set1:
+There are 8 string(s): A Z C V T U W X 
+
+--> Trying to remove "Q" from set1
+--> After trying to remove non-existent element "Q" from set1:
+There are 8 string(s): A Z C V T U W X 
+
+--> Adding 4 elements to set1
+--> After adding 4 elements to set1:
+There are 12 string(s): A Z C V T U W X K L M N 
+--> Adding 1 element to set1
+--> After adding 1 more element to set1:
+There are 13 string(s): A Z C V T U W X K L M N O 
+
+--> Creating set2 with the secondary constructor that takes an array as input
+There are 4 string(s): A B C D 
+--> Adding more elements to set2
+--> set2 after adding:
+There are 8 string(s): A B C D E F G H 
+
+Trying to add null entry
+--> set2 after adding:
+There are 8 string(s): A B C D E F G H 
+
+Process finished with exit code 0

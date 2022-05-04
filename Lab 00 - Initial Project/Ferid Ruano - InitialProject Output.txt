@@ -1,0 +1,88 @@
+Name: Ferid Ruano
+Class: COMP 151 T/TH 3PM
+
+---> Reading staff data from the file
+Processing record: Tony,123 Main Line,555-0469,123-45-6789,222423.07
+>>>>> InvalidParameterException in staff record - The employee type 'Tony' is not supported - record: "Tony,123 Main Line,555-0469,123-45-6789,222423.07" ignored <<<<<
+Processing record: Executive,Anthony,123 Main Line,555-0469,123-45-6789,222423.07
+Processing record: Executive,Paulie,456 Off Line,555-0101,987-65-4321,123456.78
+Processing record: Executive,Mark,456 Off Line,555-0101,123456.78,987-65-4321
+>>>>> InputMismatchException in staff record - incompatible data - record: "Executive,Mark,456 Off Line,555-0101,123456.78,987-65-4321" ignored <<<<<<
+Processing record: Hourly,Victor,789 Off Rocker,555-0000,010-20-3040,69.23
+Processing record: Hourly,Michael,678 Fifth Ave.,555-0690,958-47-3625,100.55
+Processing record: Hourly,Mary,6 Sixth Ave.,555-6666,123456789,160.66
+>>>>> InputMismatchException in staff record - incompatible data - record: "Hourly,Mary,6 Sixth Ave.,555-6666,123456789,160.66" ignored <<<<<<
+Processing record: Hourly,Carl,6 Sixth Ave.,555-6666,123456789
+>>>>> NoSuchElementException in staff record - missing data - record: "Hourly,Carl,6 Sixth Ave.,555-6666,123456789" ignored <<<<<
+Processing record: Hourly,Ellen,4 Rainbow,555-1234,310-28-3145,157.65
+Processing record: Monthly,Jillian,123 Main Line,555-0469,123-45-6789,2224.07
+>>>>> InvalidParameterException in staff record - The employee type 'Monthly' is not supported - record: "Monthly,Jillian,123 Main Line,555-0469,123-45-6789,2224.07" ignored <<<<<
+Processing record: Hourly,Tomas, 678 Seven Ave.,555-2692,321-44-6622,95.50
+Processing record: Volunteer,Adrianna,987 Sunset Blvd.,555-8374,576-23-5689
+Processing record: Volunteer,Benny,321 Sunflower Lane,555-7282,375-22-9056
+---> Finished reading from the file
+
+---> Preparing data for pay day
+
+*** The current staff data for the month of December 2018 ***
+The company has 8 employees
+--- Executive --- Name: Anthony
+Address: 123 Main Line
+Phone: 555-0469
+Social Security Number: 123-45-6789
+Yearly salary of: $222423.07
+
+--- Executive --- Name: Paulie
+Address: 456 Off Line
+Phone: 555-0101
+Social Security Number: 987-65-4321
+Yearly salary of: $123456.78
+
+--- Hourly Employee --- Name: Victor
+Address: 789 Off Rocker
+Phone: 555-0000
+Social Security Number: 010-20-3040
+Current hours: 33 at rate of: $2284.59
+
+--- Hourly Employee --- Name: Michael
+Address: 678 Fifth Ave.
+Phone: 555-0690
+Social Security Number: 958-47-3625
+Current hours: 34 at rate of: $3418.7
+
+--- Hourly Employee --- Name: Ellen
+Address: 4 Rainbow
+Phone: 555-1234
+Social Security Number: 310-28-3145
+Current hours: 90 at rate of: $14188.5
+
+--- Hourly Employee --- Name: Tomas
+Address:  678 Seven Ave.
+Phone: 555-2692
+Social Security Number: 321-44-6622
+Current hours: 25 at rate of: $2387.5
+
+--- Volunteer --- Name: Adrianna
+Address: 987 Sunset Blvd.
+Phone: 555-8374
+Social Security Number: 576-23-5689
+
+--- Volunteer --- Name: Benny
+Address: 321 Sunflower Lane
+Phone: 555-7282
+Social Security Number: 375-22-9056
+
+---> Processing the payroll
+*** Payroll for the month of December 2018 ***
+1. Anthony    --->  22,075.26
+2. Paulie     --->  12,178.07
+3. Victor     --->   2,284.59
+4. Michael    --->   3,418.70
+5. Ellen      --->  14,188.50
+6. Tomas      --->   2,387.50
+7. Adrianna   --->       0.00
+8. Benny      --->       0.00
+***********************************************
+
+
+Process finished with exit code 0

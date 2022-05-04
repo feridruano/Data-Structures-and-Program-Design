@@ -1,0 +1,86 @@
+Name: Ferid Ruano
+Class: COMP 151 - 3PM
+Lab 6 - Project 3
+
+ChainSort
+What size chain should be used?
+   It should be an integer value greater than or equal to 1.
+15
+What seed value should be used?
+   It should be an integer value greater than or equal to 1.
+101
+
+Original Chain Content: 18 6 99 12 14 6 82 33 79 65 30 54 93 90 40 
+-----> Before partial sort done with space 7 :
+-> Comparing 65 with 99
+---> 65 is smaller than 65:
+18 6 65 12 14 6 82 33 79 99 30 54 93 90 40 
+-----> After partial sort done with space 7 :
+-----> Before partial sort done with space 3 :
+-> Comparing 12 with 18
+---> 12 is smaller than 12:
+12 6 65 18 14 6 82 33 79 99 30 54 93 90 40 
+-> Comparing 6 with 65
+---> 6 is smaller than 6:
+12 6 6 18 14 65 82 33 79 99 30 54 93 90 40 
+-> Comparing 30 with 33
+---> 30 is smaller than 30:
+12 6 6 18 14 65 82 30 79 99 33 54 93 90 40 
+-> Comparing 54 with 79
+---> 54 is smaller than 54:
+12 6 6 18 14 65 82 30 54 99 33 79 93 90 40 
+-> Comparing 54 with 65
+---> 54 is smaller than 54:
+12 6 6 18 14 54 82 30 65 99 33 79 93 90 40 
+-> Comparing 93 with 99
+---> 93 is smaller than 93:
+12 6 6 18 14 54 82 30 65 93 33 79 99 90 40 
+-----> After partial sort done with space 3 :
+-----> Before partial sort done with space 1 :
+-> Comparing 6 with 12
+---> 6 is smaller than 6:
+6 12 6 18 14 54 82 30 65 93 33 79 99 90 40 
+-> Comparing 6 with 12
+---> 6 is smaller than 6:
+6 6 12 18 14 54 82 30 65 93 33 79 99 90 40 
+-> Comparing 14 with 18
+---> 14 is smaller than 14:
+6 6 12 14 18 54 82 30 65 93 33 79 99 90 40 
+-> Comparing 30 with 82
+---> 30 is smaller than 30:
+6 6 12 14 18 54 30 82 65 93 33 79 99 90 40 
+-> Comparing 30 with 54
+---> 30 is smaller than 30:
+6 6 12 14 18 30 54 82 65 93 33 79 99 90 40 
+-> Comparing 65 with 82
+---> 65 is smaller than 65:
+6 6 12 14 18 30 54 65 82 93 33 79 99 90 40 
+-> Comparing 33 with 93
+---> 33 is smaller than 33:
+6 6 12 14 18 30 54 65 82 33 93 79 99 90 40 
+-> Comparing 33 with 82
+---> 33 is smaller than 33:
+6 6 12 14 18 30 54 65 33 82 93 79 99 90 40 
+-> Comparing 33 with 65
+---> 33 is smaller than 33:
+6 6 12 14 18 30 54 33 65 82 93 79 99 90 40 
+-> Comparing 33 with 54
+---> 33 is smaller than 33:
+6 6 12 14 18 30 33 54 65 82 93 79 99 90 40 
+-> Comparing 79 with 93
+---> 79 is smaller than 79:
+6 6 12 14 18 30 33 54 65 82 79 93 99 90 40 
+-> Comparing 79 with 82
+---> 79 is smaller than 79:
+6 6 12 14 18 30 33 54 65 79 82 93 99 90 40 
+-> Comparing 90 with 99
+---> 90 is smaller than 90:
+6 6 12 14 18 30 33 54 65 79 82 93 90 99 40 
+-> Comparing 90 with 93
+---> 90 is smaller than 90:
+6 6 12 14 18 30 33 54 65 79 82 90 93 99 40 
+-----> After partial sort done with space 1 :
+
+Sorted Chain Content: 6 6 12 14 18 30 33 54 65 79 82 90 93 99 40 
+
+Process finished with exit code 0

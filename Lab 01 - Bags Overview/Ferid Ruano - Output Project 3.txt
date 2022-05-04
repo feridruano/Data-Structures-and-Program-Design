@@ -1,0 +1,115 @@
+Name: Ferid Ruano
+Class: COMP 151 - 3PM
+Lab 01 - Project 3
+
+How many coins/bills can fit in your piggy bank?
+10
+How many coins/bills should the computer put in your piggy bank?
+4
+How many rounds should we play?
+3
+
+******* Round #1 --> USER'S TURN *******
+>> Adding 4 monies to your piggy bank <<
+Added $0.01 to the piggy bank.
+Added $0.10 to the piggy bank.
+Added $20.00 to the piggy bank.
+Added $100.00 to the piggy bank.
+
+>>The content of your piggy bank <<
+The piggy bank can hold 10 coins/bills.
+There are 4 coins/bills in the piggy bank: [PENNY landed TAILS, DIME landed TAILS, JACKSON landed TAILS, JEFFERSON landed TAILS]
+The total of $120.11
+
+--> Adding additional monies:
+Added $0.01 to the piggy bank.
+Added $2.00 to the piggy bank.
+
+>> Shaking your piggy bank <<
+The piggy bank can hold 10 coins/bills.
+There are 6 coins/bills in the piggy bank: [DIME landed HEADS, JEFFERSON landed TAILS, PENNY landed HEADS, JEFFERSON landed HEADS, PENNY landed HEADS, JACKSON landed TAILS]
+The total of $122.12
+
+>> Emptying your piggy bank <<
+JACKSON landed Tails
+PENNY landed Heads
+JEFFERSON landed Heads
+PENNY landed Heads
+JEFFERSON landed Tails
+DIME landed Heads
+
+4 out of 6 coins/bills landed "HEADS"
+The total value of "Heads" is: $100.12 
+
+******* Round #2 --> COMPUTER'S TURN *******
+>> Adding 4 monies to your piggy bank <<
+Added $0.10 to the piggy bank.
+Added $20.00 to the piggy bank.
+Added $20.00 to the piggy bank.
+Added $100.00 to the piggy bank.
+
+>>The content of your piggy bank <<
+The piggy bank can hold 10 coins/bills.
+There are 4 coins/bills in the piggy bank: [DIME landed TAILS, JACKSON landed TAILS, JACKSON landed TAILS, JEFFERSON landed TAILS]
+The total of $140.10
+
+--> Adding additional monies:
+Added $0.25 to the piggy bank.
+Added $10.00 to the piggy bank.
+
+>> Shaking your piggy bank <<
+The piggy bank can hold 10 coins/bills.
+There are 6 coins/bills in the piggy bank: [DIME landed HEADS, JACKSON landed HEADS, JACKSON landed TAILS, JEFFERSON landed HEADS, HAMILTON landed TAILS, QUARTER landed TAILS]
+The total of $150.35
+
+>> Emptying your piggy bank <<
+QUARTER landed Tails
+HAMILTON landed Tails
+JEFFERSON landed Heads
+JACKSON landed Tails
+JACKSON landed Heads
+DIME landed Heads
+
+3 out of 6 coins/bills landed "HEADS"
+The total value of "Heads" is: $120.10 
+
+******* Round #3 --> USER'S TURN *******
+>> Adding 4 monies to your piggy bank <<
+Added $0.05 to the piggy bank.
+Added $100.00 to the piggy bank.
+Added $2.00 to the piggy bank.
+Added $0.25 to the piggy bank.
+
+>>The content of your piggy bank <<
+The piggy bank can hold 10 coins/bills.
+There are 4 coins/bills in the piggy bank: [NICKEL landed TAILS, JEFFERSON landed TAILS, JEFFERSON landed TAILS, QUARTER landed TAILS]
+The total of $102.30
+
+--> Adding additional monies:
+Added $0.50 to the piggy bank.
+Added $20.00 to the piggy bank.
+
+>> Shaking your piggy bank <<
+The piggy bank can hold 10 coins/bills.
+There are 6 coins/bills in the piggy bank: [NICKEL landed HEADS, QUARTER landed HEADS, JEFFERSON landed HEADS, JEFFERSON landed TAILS, HALF_DOllAR landed HEADS, JACKSON landed TAILS]
+The total of $122.80
+
+>> Emptying your piggy bank <<
+JACKSON landed Tails
+HALF_DOllAR landed Heads
+JEFFERSON landed Tails
+JEFFERSON landed Heads
+QUARTER landed Heads
+NICKEL landed Heads
+
+4 out of 6 coins/bills landed "HEADS"
+The total value of "Heads" is: $2.80 
+
+***GAME OVER***
+
+computerHeadsCount = 3
+userHeadsCount = 8
+
+User wins!!!
+
+Process finished with exit code 0

@@ -1,0 +1,77 @@
+Name: Ferid Ruano
+Class: COMP 151 - 3PM
+Lab 7 - Project 3
+
+CheckBinaryRadixSort
+What size array should be used?
+ It should be an integer value greater than or equal to 1.
+21
+How many arrays should be used (number of trials)?
+ It should be an integer value greater than or equal to 1.
+3
+What maximum number should be generated?
+ It should be an integer value greater than or equal to 1.
+99
+
+TRIAL #1
+The original array is: 
+[40, 81, 17, 93, 87, 82, 99, 45, 86, 3, 52, 63, 11, 69, 41, 57, 36, 79, 55, 24, 87]
+The original array sorted with binaryRadixSort: 
+[3, 11, 17, 24, 36, 40, 41, 45, 52, 55, 57, 63, 69, 79, 81, 82, 86, 87, 87, 93, 99]
+  passes
+
+TRIAL #2
+The original array is: 
+[96, 24, 63, 90, 98, 18, 7, 72, 96, 44, 73, 97, 35, 92, 70, 21, 50, 53, 18, 47, 71]
+The original array sorted with binaryRadixSort: 
+[7, 18, 18, 21, 24, 35, 44, 47, 50, 53, 63, 70, 71, 72, 73, 90, 92, 96, 96, 97, 98]
+  passes
+
+TRIAL #3
+The original array is: 
+[92, 3, 0, 44, 68, 78, 38, 99, 2, 61, 39, 31, 27, 38, 67, 61, 57, 67, 29, 1, 24]
+The original array sorted with binaryRadixSort: 
+[0, 1, 2, 3, 24, 27, 29, 31, 38, 38, 39, 44, 57, 61, 61, 67, 67, 68, 78, 92, 99]
+  passes
+
+Process finished with exit code 0
+
+
+
+
+
+
+CheckBinaryRadixSort
+What size array should be used?
+ It should be an integer value greater than or equal to 1.
+21
+How many arrays should be used (number of trials)?
+ It should be an integer value greater than or equal to 1.
+3
+What maximum number should be generated?
+ It should be an integer value greater than or equal to 1.
+1
+
+TRIAL #1
+The original array is: 
+[0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1]
+The original array sorted with binaryRadixSort: 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  passes
+
+TRIAL #2
+The original array is: 
+[1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1, 0, 0, 1, 0]
+The original array sorted with binaryRadixSort: 
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  passes
+
+TRIAL #3
+The original array is: 
+[1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0]
+The original array sorted with binaryRadixSort: 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  passes
+
+Process finished with exit code 0
+

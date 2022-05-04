@@ -1,0 +1,46 @@
+Name: Ferid Ruano
+Class: COMP 151 - 3PM
+Lab 13 - Application #4
+
+EncodeApplication
+The message lines are:
+Jill Dill
+
+---> Count of character   is 1
+---> Count of character D is 1
+---> Count of character J is 1
+---> Count of character i is 2
+---> Count of character l is 4
+
+Creating 5 initial trees
+Building Huffman Tree
+--->Smallest tree moved to the position 4
+--->Second smallest tree moved to the position 3
+--->Combined tree created: [ , D] -> 2
+--->Combined tree added at position 3
+--->Smallest tree moved to the position 3
+--->Second smallest tree moved to the position 2
+--->Combined tree created: [J, i] -> 3
+--->Combined tree added at position 2
+--->Smallest tree moved to the position 2
+--->Second smallest tree moved to the position 1
+--->Combined tree created: [ , D, l] -> 6
+--->Combined tree added at position 1
+--->Smallest tree moved to the position 1
+--->Second smallest tree moved to the position 0
+--->Combined tree created: [J, i,  , D, l] -> 9
+--->Combined tree added at position 0
+
+Huffman Tree:
+[J, i,  , D, l] -> 9
+[J, i,  , D, l] -> 3
+[J, i,  , D, l] -> 1
+[i] -> 2
+[ , D, l] -> 6
+[ , D, l] -> 2
+[ , D, l] -> 1
+[D] -> 1
+[l] -> 4
+
+The coded lines are (displaying 80 characters per line):
+00 01 00 00 00 00 01 00 00 

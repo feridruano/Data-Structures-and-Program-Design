@@ -1,0 +1,139 @@
+Name: Ferid Ruano
+Class: COMP 151 - 3PM
+Lab 01 - Project 2
+
+What is the initial string? Use "HYDRA"
+HYDRA
+The initial string "HYDRA" has length of 5.
+
+*** Removing heads from the Hydra ***
+
+--> Removed "HYDRA"
+After adding two, the Hydra has 2 heads:
+[YDRA, YDRA]
+
+--> Removed "YDRA"
+After adding two, the Hydra has 3 heads:
+[YDRA, DRA, DRA]
+
+--> Removed "DRA"
+After adding two, the Hydra has 4 heads:
+[YDRA, DRA, RA, RA]
+
+--> Removed "RA"
+After adding two, the Hydra has 5 heads:
+[YDRA, DRA, RA, A, A]
+
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 4 heads remaining
+[YDRA, DRA, RA, A]
+
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 3 heads remaining
+[YDRA, DRA, RA]
+
+--> Removed "RA"
+After adding two, the Hydra has 4 heads:
+[YDRA, DRA, A, A]
+
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 3 heads remaining
+[YDRA, DRA, A]
+
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 2 heads remaining
+[YDRA, DRA]
+
+--> Removed "DRA"
+After adding two, the Hydra has 3 heads:
+[YDRA, RA, RA]
+
+--> Removed "RA"
+After adding two, the Hydra has 4 heads:
+[YDRA, RA, A, A]
+
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 3 heads remaining
+[YDRA, RA, A]
+
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 2 heads remaining
+[YDRA, RA]
+
+--> Removed "RA"
+After adding two, the Hydra has 3 heads:
+[YDRA, A, A]
+
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 2 heads remaining
+[YDRA, A]
+
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 1 heads remaining
+[YDRA]
+
+--> Removed "YDRA"
+After adding two, the Hydra has 2 heads:
+[DRA, DRA]
+
+--> Removed "DRA"
+After adding two, the Hydra has 3 heads:
+[DRA, RA, RA]
+
+--> Removed "RA"
+After adding two, the Hydra has 4 heads:
+[DRA, RA, A, A]
+
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 3 heads remaining
+[DRA, RA, A]
+
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 2 heads remaining
+[DRA, RA]
+
+--> Removed "RA"
+After adding two, the Hydra has 3 heads:
+[DRA, A, A]
+
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 2 heads remaining
+[DRA, A]
+
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 1 heads remaining
+[DRA]
+
+--> Removed "DRA"
+After adding two, the Hydra has 2 heads:
+[RA, RA]
+
+--> Removed "RA"
+After adding two, the Hydra has 3 heads:
+[RA, A, A]
+
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 2 heads remaining
+[RA, A]
+
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 1 heads remaining
+[RA]
+
+--> Removed "RA"
+After adding two, the Hydra has 2 heads:
+[A, A]
+
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 1 heads remaining
+[A]
+
+--> Removed "A"
+The removed head is of length 1, no new heads will be added - 0 heads remaining
+[]
+
+The Hydra is no more!!!
+
+The time required was 12 milliseconds
+
+Process finished with exit code 0

@@ -1,0 +1,83 @@
+Name: Ferid Ruano
+Class: COMP 151 - 3PM
+Lab 14b - I
+
+WhichRoadsCanBeClosed
+How many nodes in your graph?
+10
+Probability of edge? (type 70 for 70%)
+50
+***** GENERATED GRAPH *****
+     [ 1][ 2][ 3][ 4][ 5][ 6][ 7][ 8][ 9][10]
+[ 1]      16       1  24       5      24   2
+[ 2]  16              21              24    
+[ 3]                      12           3  21
+[ 4]   1                      14          18
+[ 5]  24  21              21  23      22    
+[ 6]          12      21       4       3    
+[ 7]   5          14  23   4              14
+[ 8]                                   7    
+[ 9]  24  24   3      22   3       7       4
+[10]   2      21  18          14       4    
+
+The graph has cycles.
+
+
+***** Computed MINIMUM SPANNING TREE for the above graph *****
+     [ 1][ 2][ 3][ 4][ 5][ 6][ 7][ 8][ 9][10]
+[ 1]      16       1                       2
+[ 2]  16              21                    
+[ 3]                                   3    
+[ 4]   1                                    
+[ 5]      21                                
+[ 6]                           4       3    
+[ 7]                       4                
+[ 8]                                   7    
+[ 9]           3           3       7       4
+[10]   2                               4    
+
+The following roads can be closed:
+1 ==== 5
+1 ==== 7
+1 ==== 9
+2 ==== 9
+3 ==== 6
+3 ==== 10
+4 ==== 7
+4 ==== 10
+5 ==== 6
+5 ==== 7
+5 ==== 9
+7 ==== 10
+
+The minimum spanning tree is acyclic.
+
+
+***** Computed MINIMUM SPANNING TREE in Level-order *****
+Level 1: 1 
+Level 2: 2 4 10 
+Level 3: 5 9 
+Level 4: 3 6 8 
+Level 5: 7 
+
+Process finished with exit code 0
+
+---------------------------------
+
+How many nodes in your graph?
+8
+Probability of edge? (type 70 for 70%)
+25
+***** GENERATED GRAPH *****
+     [ 1][ 2][ 3][ 4][ 5][ 6][ 7][ 8]
+[ 1]                          24    
+[ 2]           5          22        
+[ 3]       5          21            
+[ 4]                                
+[ 5]          21                    
+[ 6]      22                        
+[ 7]  24                            
+[ 8]                                
+The graph is not connected, the minimum spanning tree will not be calculated
+
+Process finished with exit code 0

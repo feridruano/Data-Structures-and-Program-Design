@@ -1,0 +1,464 @@
+Name: Ferid Ruano
+Class: COMP 151 - 3PM
+Lab 12 - Project 1
+
+SolveWithHashing
+
+	*** Testing displayHashTable ***
+displaying empty dictionary
+The size of hash table is: 5
+0   null
+1   null
+2   null
+3   null
+4   null
+
+
+displaying dictionary after 2 entries have been added
+The size of hash table is: 5
+0   null
+1   KEY: 1   VALUE: 1
+2   KEY: 7   VALUE: 7
+3   null
+4   null
+
+
+displaying dictionary after 3 additional entries have been added
+The size of hash table is: 11
+0   null
+1   KEY: 1   VALUE: 1
+2   KEY: 13  VALUE: 13
+3   null
+4   null
+5   null
+6   KEY: 17  VALUE: 17
+7   KEY: 7   VALUE: 7
+8   KEY: 8   VALUE: 8
+9   null
+10  null
+
+
+displaying dictionary after 2 entries have been removed
+The size of hash table is: 11
+0   null
+1   notIn
+2   KEY: 13  VALUE: 13
+3   null
+4   null
+5   null
+6   notIn
+7   KEY: 7   VALUE: 7
+8   KEY: 8   VALUE: 8
+9   null
+10  null
+
+
+
+	*** Find The First Element With Duplicate ***
+The content of the hash table for array: [9, 3, 5, 1, 2, 2, 5, 3]
+The size of hash table is: 11
+0   null
+1   KEY: 1   VALUE: 4
+2   KEY: 2   VALUE: -5
+3   KEY: 3   VALUE: -2
+4   null
+5   KEY: 5   VALUE: -3
+6   null
+7   null
+8   null
+9   KEY: 9   VALUE: 1
+10  null
+
+
+--> the first element that is repeated is: 3
+
+The content of the hash table for array: [6, 6, 3, 2, 1, 2, 2, 3]
+The size of hash table is: 11
+0   null
+1   KEY: 1   VALUE: 5
+2   KEY: 2   VALUE: -4
+3   KEY: 3   VALUE: -3
+4   null
+5   null
+6   KEY: 6   VALUE: -1
+7   null
+8   null
+9   null
+10  null
+
+
+--> the first element that is repeated is: 6
+
+The content of the hash table for array: [2, 1, 6, 2, 3, 2, 3, 6]
+The size of hash table is: 11
+0   null
+1   KEY: 1   VALUE: 2
+2   KEY: 2   VALUE: -1
+3   KEY: 3   VALUE: -5
+4   null
+5   null
+6   KEY: 6   VALUE: -3
+7   null
+8   null
+9   null
+10  null
+
+
+--> the first element that is repeated is: 2
+
+The content of the hash table for array: [3, 2, 1, 2, 2, 3, 6, 6]
+The size of hash table is: 11
+0   null
+1   KEY: 1   VALUE: 3
+2   KEY: 2   VALUE: -2
+3   KEY: 3   VALUE: -1
+4   null
+5   null
+6   KEY: 6   VALUE: -7
+7   null
+8   null
+9   null
+10  null
+
+
+--> the first element that is repeated is: 3
+
+The content of the hash table for array: [9, 3, 4, 4, 4, 1, 2, 2, 5, 3]
+The size of hash table is: 23
+0   null
+1   KEY: 1   VALUE: 6
+2   KEY: 2   VALUE: -7
+3   KEY: 3   VALUE: -2
+4   KEY: 4   VALUE: -3
+5   KEY: 5   VALUE: 9
+6   null
+7   null
+8   null
+9   KEY: 9   VALUE: 1
+10  null
+11  null
+12  null
+13  null
+14  null
+15  null
+16  null
+17  null
+18  null
+19  null
+20  null
+21  null
+22  null
+
+
+--> the first element that is repeated is: 3
+
+The content of the hash table for array: [3, 3, 3, 3, 3, 3, 3]
+The size of hash table is: 5
+0   null
+1   null
+2   null
+3   KEY: 3   VALUE: -1
+4   null
+
+
+--> the first element that is repeated is: 3
+
+The content of the hash table for array: [1, 2, 3, 4, 5, 6, 7, 8]
+The size of hash table is: 23
+0   null
+1   KEY: 1   VALUE: 1
+2   KEY: 2   VALUE: 2
+3   KEY: 3   VALUE: 3
+4   KEY: 4   VALUE: 4
+5   KEY: 5   VALUE: 5
+6   KEY: 6   VALUE: 6
+7   KEY: 7   VALUE: 7
+8   KEY: 8   VALUE: 8
+9   null
+10  null
+11  null
+12  null
+13  null
+14  null
+15  null
+16  null
+17  null
+18  null
+19  null
+20  null
+21  null
+22  null
+
+
+--> duplicates not found
+
+The content of the hash table for array: [8, 1, 2, 3, 4, 5, 6, 7]
+The size of hash table is: 23
+0   null
+1   KEY: 1   VALUE: 2
+2   KEY: 2   VALUE: 3
+3   KEY: 3   VALUE: 4
+4   KEY: 4   VALUE: 5
+5   KEY: 5   VALUE: 6
+6   KEY: 6   VALUE: 7
+7   KEY: 7   VALUE: 8
+8   KEY: 8   VALUE: 1
+9   null
+10  null
+11  null
+12  null
+13  null
+14  null
+15  null
+16  null
+17  null
+18  null
+19  null
+20  null
+21  null
+22  null
+
+
+--> duplicates not found
+
+
+	*** Check If There Exists A Pair Of Elements That Add Up To k ***
+k = 2
+toPutInHashTable = [9, 3, 5, 1, 2, 2, 5, 3]
+toCheck = [6, 6, 3, 2, 1, 2, 2, 3]
+The pair {1,1} adds to 2
+--> pair that add up to 2 found.
+toPutInHashTable = [6, 6, 3, 2, 1, 2, 2, 3]
+toCheck = [2, 1, 6, 2, 3, 2, 3, 6]
+The pair {1,1} adds to 2
+--> pair that add up to 2 found.
+toPutInHashTable = [2, 1, 6, 2, 3, 2, 3, 6]
+toCheck = [3, 2, 1, 2, 2, 3, 6, 6]
+The pair {1,1} adds to 2
+--> pair that add up to 2 found.
+toPutInHashTable = [3, 2, 1, 2, 2, 3, 6, 6]
+toCheck = [9, 3, 4, 4, 4, 1, 2, 2, 5, 3]
+The pair {1,1} adds to 2
+--> pair that add up to 2 found.
+toPutInHashTable = [3, 3, 3, 3, 3, 3, 3]
+toCheck = [9, 3, 4, 4, 4, 1, 2, 2, 5, 3]
+--> pair that add up to 2 NOT found.
+toPutInHashTable = [3, 3, 3, 3, 3, 3, 3]
+toCheck = [1, 2, 3, 4, 5, 6, 7, 8]
+--> pair that add up to 2 NOT found.
+toPutInHashTable = [1, 2, 3, 4, 5, 6, 7, 8]
+toCheck = [8, 1, 2, 3, 4, 5, 6, 7]
+The pair {1,1} adds to 2
+--> pair that add up to 2 found.
+
+k = 3
+toPutInHashTable = [9, 3, 5, 1, 2, 2, 5, 3]
+toCheck = [6, 6, 3, 2, 1, 2, 2, 3]
+The pair {1,2} adds to 3
+--> pair that add up to 3 found.
+toPutInHashTable = [6, 6, 3, 2, 1, 2, 2, 3]
+toCheck = [2, 1, 6, 2, 3, 2, 3, 6]
+The pair {1,2} adds to 3
+--> pair that add up to 3 found.
+toPutInHashTable = [2, 1, 6, 2, 3, 2, 3, 6]
+toCheck = [3, 2, 1, 2, 2, 3, 6, 6]
+The pair {1,2} adds to 3
+--> pair that add up to 3 found.
+toPutInHashTable = [3, 2, 1, 2, 2, 3, 6, 6]
+toCheck = [9, 3, 4, 4, 4, 1, 2, 2, 5, 3]
+The pair {2,1} adds to 3
+--> pair that add up to 3 found.
+toPutInHashTable = [3, 3, 3, 3, 3, 3, 3]
+toCheck = [9, 3, 4, 4, 4, 1, 2, 2, 5, 3]
+--> pair that add up to 3 NOT found.
+toPutInHashTable = [3, 3, 3, 3, 3, 3, 3]
+toCheck = [1, 2, 3, 4, 5, 6, 7, 8]
+--> pair that add up to 3 NOT found.
+toPutInHashTable = [1, 2, 3, 4, 5, 6, 7, 8]
+toCheck = [8, 1, 2, 3, 4, 5, 6, 7]
+The pair {2,1} adds to 3
+--> pair that add up to 3 found.
+
+k = 4
+toPutInHashTable = [9, 3, 5, 1, 2, 2, 5, 3]
+toCheck = [6, 6, 3, 2, 1, 2, 2, 3]
+The pair {1,3} adds to 4
+--> pair that add up to 4 found.
+toPutInHashTable = [6, 6, 3, 2, 1, 2, 2, 3]
+toCheck = [2, 1, 6, 2, 3, 2, 3, 6]
+The pair {2,2} adds to 4
+--> pair that add up to 4 found.
+toPutInHashTable = [2, 1, 6, 2, 3, 2, 3, 6]
+toCheck = [3, 2, 1, 2, 2, 3, 6, 6]
+The pair {1,3} adds to 4
+--> pair that add up to 4 found.
+toPutInHashTable = [3, 2, 1, 2, 2, 3, 6, 6]
+toCheck = [9, 3, 4, 4, 4, 1, 2, 2, 5, 3]
+The pair {1,3} adds to 4
+--> pair that add up to 4 found.
+toPutInHashTable = [3, 3, 3, 3, 3, 3, 3]
+toCheck = [9, 3, 4, 4, 4, 1, 2, 2, 5, 3]
+The pair {3,1} adds to 4
+--> pair that add up to 4 found.
+toPutInHashTable = [3, 3, 3, 3, 3, 3, 3]
+toCheck = [1, 2, 3, 4, 5, 6, 7, 8]
+The pair {3,1} adds to 4
+--> pair that add up to 4 found.
+toPutInHashTable = [1, 2, 3, 4, 5, 6, 7, 8]
+toCheck = [8, 1, 2, 3, 4, 5, 6, 7]
+The pair {3,1} adds to 4
+--> pair that add up to 4 found.
+
+k = 5
+toPutInHashTable = [9, 3, 5, 1, 2, 2, 5, 3]
+toCheck = [6, 6, 3, 2, 1, 2, 2, 3]
+The pair {2,3} adds to 5
+--> pair that add up to 5 found.
+toPutInHashTable = [6, 6, 3, 2, 1, 2, 2, 3]
+toCheck = [2, 1, 6, 2, 3, 2, 3, 6]
+The pair {3,2} adds to 5
+--> pair that add up to 5 found.
+toPutInHashTable = [2, 1, 6, 2, 3, 2, 3, 6]
+toCheck = [3, 2, 1, 2, 2, 3, 6, 6]
+The pair {2,3} adds to 5
+--> pair that add up to 5 found.
+toPutInHashTable = [3, 2, 1, 2, 2, 3, 6, 6]
+toCheck = [9, 3, 4, 4, 4, 1, 2, 2, 5, 3]
+The pair {2,3} adds to 5
+--> pair that add up to 5 found.
+toPutInHashTable = [3, 3, 3, 3, 3, 3, 3]
+toCheck = [9, 3, 4, 4, 4, 1, 2, 2, 5, 3]
+The pair {3,2} adds to 5
+--> pair that add up to 5 found.
+toPutInHashTable = [3, 3, 3, 3, 3, 3, 3]
+toCheck = [1, 2, 3, 4, 5, 6, 7, 8]
+The pair {3,2} adds to 5
+--> pair that add up to 5 found.
+toPutInHashTable = [1, 2, 3, 4, 5, 6, 7, 8]
+toCheck = [8, 1, 2, 3, 4, 5, 6, 7]
+The pair {4,1} adds to 5
+--> pair that add up to 5 found.
+
+k = 6
+toPutInHashTable = [9, 3, 5, 1, 2, 2, 5, 3]
+toCheck = [6, 6, 3, 2, 1, 2, 2, 3]
+The pair {3,3} adds to 6
+--> pair that add up to 6 found.
+toPutInHashTable = [6, 6, 3, 2, 1, 2, 2, 3]
+toCheck = [2, 1, 6, 2, 3, 2, 3, 6]
+The pair {3,3} adds to 6
+--> pair that add up to 6 found.
+toPutInHashTable = [2, 1, 6, 2, 3, 2, 3, 6]
+toCheck = [3, 2, 1, 2, 2, 3, 6, 6]
+The pair {3,3} adds to 6
+--> pair that add up to 6 found.
+toPutInHashTable = [3, 2, 1, 2, 2, 3, 6, 6]
+toCheck = [9, 3, 4, 4, 4, 1, 2, 2, 5, 3]
+The pair {3,3} adds to 6
+--> pair that add up to 6 found.
+toPutInHashTable = [3, 3, 3, 3, 3, 3, 3]
+toCheck = [9, 3, 4, 4, 4, 1, 2, 2, 5, 3]
+The pair {3,3} adds to 6
+--> pair that add up to 6 found.
+toPutInHashTable = [3, 3, 3, 3, 3, 3, 3]
+toCheck = [1, 2, 3, 4, 5, 6, 7, 8]
+The pair {3,3} adds to 6
+--> pair that add up to 6 found.
+toPutInHashTable = [1, 2, 3, 4, 5, 6, 7, 8]
+toCheck = [8, 1, 2, 3, 4, 5, 6, 7]
+The pair {5,1} adds to 6
+--> pair that add up to 6 found.
+
+k = 7
+toPutInHashTable = [9, 3, 5, 1, 2, 2, 5, 3]
+toCheck = [6, 6, 3, 2, 1, 2, 2, 3]
+The pair {1,6} adds to 7
+--> pair that add up to 7 found.
+toPutInHashTable = [6, 6, 3, 2, 1, 2, 2, 3]
+toCheck = [2, 1, 6, 2, 3, 2, 3, 6]
+The pair {6,1} adds to 7
+--> pair that add up to 7 found.
+toPutInHashTable = [2, 1, 6, 2, 3, 2, 3, 6]
+toCheck = [3, 2, 1, 2, 2, 3, 6, 6]
+The pair {6,1} adds to 7
+--> pair that add up to 7 found.
+toPutInHashTable = [3, 2, 1, 2, 2, 3, 6, 6]
+toCheck = [9, 3, 4, 4, 4, 1, 2, 2, 5, 3]
+The pair {3,4} adds to 7
+--> pair that add up to 7 found.
+toPutInHashTable = [3, 3, 3, 3, 3, 3, 3]
+toCheck = [9, 3, 4, 4, 4, 1, 2, 2, 5, 3]
+The pair {3,4} adds to 7
+--> pair that add up to 7 found.
+toPutInHashTable = [3, 3, 3, 3, 3, 3, 3]
+toCheck = [1, 2, 3, 4, 5, 6, 7, 8]
+The pair {3,4} adds to 7
+--> pair that add up to 7 found.
+toPutInHashTable = [1, 2, 3, 4, 5, 6, 7, 8]
+toCheck = [8, 1, 2, 3, 4, 5, 6, 7]
+The pair {6,1} adds to 7
+--> pair that add up to 7 found.
+
+k = 8
+toPutInHashTable = [9, 3, 5, 1, 2, 2, 5, 3]
+toCheck = [6, 6, 3, 2, 1, 2, 2, 3]
+The pair {2,6} adds to 8
+--> pair that add up to 8 found.
+toPutInHashTable = [6, 6, 3, 2, 1, 2, 2, 3]
+toCheck = [2, 1, 6, 2, 3, 2, 3, 6]
+The pair {6,2} adds to 8
+--> pair that add up to 8 found.
+toPutInHashTable = [2, 1, 6, 2, 3, 2, 3, 6]
+toCheck = [3, 2, 1, 2, 2, 3, 6, 6]
+The pair {6,2} adds to 8
+--> pair that add up to 8 found.
+toPutInHashTable = [3, 2, 1, 2, 2, 3, 6, 6]
+toCheck = [9, 3, 4, 4, 4, 1, 2, 2, 5, 3]
+The pair {6,2} adds to 8
+--> pair that add up to 8 found.
+toPutInHashTable = [3, 3, 3, 3, 3, 3, 3]
+toCheck = [9, 3, 4, 4, 4, 1, 2, 2, 5, 3]
+The pair {3,5} adds to 8
+--> pair that add up to 8 found.
+toPutInHashTable = [3, 3, 3, 3, 3, 3, 3]
+toCheck = [1, 2, 3, 4, 5, 6, 7, 8]
+The pair {3,5} adds to 8
+--> pair that add up to 8 found.
+toPutInHashTable = [1, 2, 3, 4, 5, 6, 7, 8]
+toCheck = [8, 1, 2, 3, 4, 5, 6, 7]
+The pair {7,1} adds to 8
+--> pair that add up to 8 found.
+
+k = 9
+toPutInHashTable = [9, 3, 5, 1, 2, 2, 5, 3]
+toCheck = [6, 6, 3, 2, 1, 2, 2, 3]
+The pair {3,6} adds to 9
+--> pair that add up to 9 found.
+toPutInHashTable = [6, 6, 3, 2, 1, 2, 2, 3]
+toCheck = [2, 1, 6, 2, 3, 2, 3, 6]
+The pair {3,6} adds to 9
+--> pair that add up to 9 found.
+toPutInHashTable = [2, 1, 6, 2, 3, 2, 3, 6]
+toCheck = [3, 2, 1, 2, 2, 3, 6, 6]
+The pair {6,3} adds to 9
+--> pair that add up to 9 found.
+toPutInHashTable = [3, 2, 1, 2, 2, 3, 6, 6]
+toCheck = [9, 3, 4, 4, 4, 1, 2, 2, 5, 3]
+The pair {6,3} adds to 9
+--> pair that add up to 9 found.
+toPutInHashTable = [3, 3, 3, 3, 3, 3, 3]
+toCheck = [9, 3, 4, 4, 4, 1, 2, 2, 5, 3]
+--> pair that add up to 9 NOT found.
+toPutInHashTable = [3, 3, 3, 3, 3, 3, 3]
+toCheck = [1, 2, 3, 4, 5, 6, 7, 8]
+The pair {3,6} adds to 9
+--> pair that add up to 9 found.
+toPutInHashTable = [1, 2, 3, 4, 5, 6, 7, 8]
+toCheck = [8, 1, 2, 3, 4, 5, 6, 7]
+The pair {1,8} adds to 9
+--> pair that add up to 9 found.
+
+
+Bye!
+
+Process finished with exit code 0

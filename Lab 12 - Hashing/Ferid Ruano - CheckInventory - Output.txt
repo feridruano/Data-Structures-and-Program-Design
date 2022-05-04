@@ -1,0 +1,73 @@
+Name: Ferid Ruano
+Class: COMP 151 - 3PM
+Lab 12 - Project 2
+
+CheckInventory
+How many CarIDs to generate?
+5
+
+*** Checking if "sortedFile.txt" and "randomFile.txt" have the same elements ***
+The content of the hash table after file randomFile.txt was processed:
+The size of hash table is: 11
+0   null
+1   null
+2   KEY: CarID{YCL 26173488024166} VALUE: 1
+3   KEY: CarID{IKT 79165731364363} VALUE: 1
+4   KEY: CarID{PNN 75573168975558} VALUE: 1
+5   KEY: CarID{PFJ 61745334134984} VALUE: 1
+6   null
+7   null
+8   null
+9   KEY: CarID{SZD 67926802656931} VALUE: 1
+10  null
+
+The content of the hash table after file sortedFile.txt was processed:
+The size of hash table is: 11
+0   null
+1   null
+2   notIn
+3   notIn
+4   notIn
+5   notIn
+6   null
+7   null
+8   null
+9   notIn
+10  null
+
+--> the elements in files "randomFile.txt" and "sortedFile.txt are the same
+
+*** Checking if "sortedFile.txt" and "corruptedFile.txt" have the same elements ***
+The content of the hash table after file sortedFile.txt was processed:
+The size of hash table is: 11
+0   null
+1   null
+2   KEY: CarID{YCL 26173488024166} VALUE: 1
+3   KEY: CarID{PNN 75573168975558} VALUE: 1
+4   KEY: CarID{IKT 79165731364363} VALUE: 1
+5   KEY: CarID{PFJ 61745334134984} VALUE: 1
+6   null
+7   null
+8   null
+9   KEY: CarID{SZD 67926802656931} VALUE: 1
+10  null
+
+The content of the hash table after file corruptedFile.txt was processed:
+The size of hash table is: 11
+0   null
+1   null
+2   notIn
+3   KEY: CarID{PNN 75573168975558} VALUE: 1
+4   KEY: CarID{IKT 79165731364363} VALUE: 1
+5   KEY: CarID{PFJ 61745334134984} VALUE: 1
+6   null
+7   null
+8   null
+9   KEY: CarID{SZD 67926802656931} VALUE: 1
+10  null
+
+--> the elements in files "corruptedFile.txt" and "sortedFile.txt are NOT the same
+
+Bye!
+
+Process finished with exit code 0
